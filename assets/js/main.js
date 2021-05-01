@@ -4,6 +4,7 @@
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
+
 (function() {
   "use strict";
 
@@ -162,6 +163,8 @@
    * Porfolio isotope and filter
    */
   window.addEventListener('load', () => {
+    const preloader = document.querySelector('.preloader');
+    $(".loader").delay(350).fadeOut(800);
     let portfolioContainer = select('.portfolio-container');
     if (portfolioContainer) {
       let portfolioIsotope = new Isotope(portfolioContainer, {
