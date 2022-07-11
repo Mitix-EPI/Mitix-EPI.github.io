@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: mitix-epi.github.io
+Token: 7d0ba2d6f7ddedfe78dc499ca7c5fc1e3967b328c85b087ca2ada68ddb0051dc
