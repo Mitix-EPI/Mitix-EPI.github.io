@@ -389,6 +389,7 @@ section {
 .facts .count-box {
     padding: 30px;
     width: 100%;
+    text-align: center
 }
 
 .facts .count-box i {
@@ -468,6 +469,54 @@ section {
 }
 
 .skills .featurette-icon {
+    display: block;
+    width: 100%;
+    font-size: 3rem;
+    text-align: center;
+    color: #149ddd;
+}
+
+.ai-skills .progress {
+    height: 60px;
+    display: block;
+    background: none;
+    border-radius: 0;
+}
+
+.ai-skills .progress .skill {
+    padding: 0;
+    margin: 0 0 6px 0;
+    text-transform: uppercase;
+    display: block;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #050d18;
+}
+
+.ai-skills .progress .skill .val {
+    float: right;
+    font-style: normal;
+}
+
+.ai-skills .progress-bar-wrap {
+    background: #dce8f8;
+    height: 10px;
+}
+
+.ai-skills .progress-bar {
+    width: 1px;
+    height: 10px;
+    transition: .9s;
+    background-color: #149ddd;
+}
+
+.ai-skills .featurette {
+    font-size: .8rem;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.ai-skills .featurette-icon {
     display: block;
     width: 100%;
     font-size: 3rem;
